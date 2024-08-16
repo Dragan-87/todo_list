@@ -1,0 +1,17 @@
+# Ignore virtual environment directories
+venv/
+myenv/
+env/
+.venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore requirements.txt
+requirements.txt
+
+# Ignore other common files
+*.log
+*.sqlite3
+.DS_Store
