@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-s=t8tzgs22hw$_ezcl3u0#a+bklv5hf5^g!rj96g(0m27crgnf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['draganapitest.pythonanywhere.com']
+ALLOWED_HOSTS = ['draganapitest.pythonanywhere.com', '127.0.0.1',]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo',
 ]
 
 MIDDLEWARE = [
